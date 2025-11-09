@@ -1,0 +1,2 @@
+kernel/drivers/phy/motorola/phy-cpcap-usb.ko
+kernel/drivers/phy/motorola/phy-mapphone-mdm6600.ko

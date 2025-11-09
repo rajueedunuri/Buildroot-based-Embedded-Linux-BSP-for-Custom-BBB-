@@ -1,0 +1,10 @@
+kernel/drivers/hid/hid-generic.ko
+kernel/drivers/hid/usbhid/usbhid.ko
+kernel/drivers/hid/usbhid/usbkbd.ko
+kernel/drivers/hid/usbhid/usbmouse.ko
+kernel/drivers/hid/usbhid/usbhid.ko
+kernel/drivers/hid/usbhid/usbkbd.ko
+kernel/drivers/hid/usbhid/usbmouse.ko
+kernel/drivers/hid/usbhid/usbhid.ko
+kernel/drivers/hid/usbhid/usbkbd.ko
+kernel/drivers/hid/usbhid/usbmouse.ko

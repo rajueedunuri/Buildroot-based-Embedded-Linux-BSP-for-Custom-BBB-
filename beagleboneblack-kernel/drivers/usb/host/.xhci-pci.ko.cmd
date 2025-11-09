@@ -1,0 +1,1 @@
+cmd_drivers/usb/host/xhci-pci.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/host/xhci-pci.ko drivers/usb/host/xhci-pci.o drivers/usb/host/xhci-pci.mod.o ;  true

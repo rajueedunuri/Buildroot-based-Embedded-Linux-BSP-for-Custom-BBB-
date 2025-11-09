@@ -1,0 +1,6 @@
+kernel/drivers/input/misc/cpcap-pwrbutton.ko
+kernel/drivers/input/misc/palmas-pwrbutton.ko
+kernel/drivers/input/misc/pwm-vibra.ko
+kernel/drivers/input/misc/tps65218-pwrbutton.ko
+kernel/drivers/input/misc/twl4030-pwrbutton.ko
+kernel/drivers/input/misc/uinput.ko

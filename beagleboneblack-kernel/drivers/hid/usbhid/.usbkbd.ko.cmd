@@ -1,0 +1,1 @@
+cmd_drivers/hid/usbhid/usbkbd.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/hid/usbhid/usbkbd.ko drivers/hid/usbhid/usbkbd.o drivers/hid/usbhid/usbkbd.mod.o ;  true

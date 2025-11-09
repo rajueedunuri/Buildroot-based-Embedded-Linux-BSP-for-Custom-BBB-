@@ -1,0 +1,29 @@
+!<thin>
+//                                              300       `
+thermal_core.o/
+thermal_sysfs.o/
+thermal_helpers.o/
+of-thermal.o/
+fair_share.o/
+step_wise.o/
+user_space.o/
+cpu_cooling.o/
+ti-soc-thermal/ti-bandgap.o/
+ti-soc-thermal/ti-thermal-common.o/
+ti-soc-thermal/dra752-thermal-data.o/
+ti-soc-thermal/omap4-thermal-data.o/
+ti-soc-thermal/omap5-thermal-data.o/
+
+/0              0           0     0     644     136612    `
+/16            /0           0     0     644     37692     `
+/33             0           0     0     644     21468     `
+/52             0           0     0     644     38752     `
+/66             0           0     0     644     15804     `
+/80             0           0     0     644     17792     `
+/93             0           0     0     644     12560     `
+/107            0           0     0     644     35312     `
+/122            0           0     0     644     61884     `
+/151            0           0     0     644     19584     `
+/187            0           0     0     644     7260      `
+/225            0           0     0     644     7168      `
+/262            0           0     0     644     6588      `

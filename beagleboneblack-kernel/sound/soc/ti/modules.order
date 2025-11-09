@@ -1,0 +1,11 @@
+kernel/sound/soc/ti/snd-soc-ti-edma.ko
+kernel/sound/soc/ti/snd-soc-ti-sdma.ko
+kernel/sound/soc/ti/snd-soc-davinci-mcasp.ko
+kernel/sound/soc/ti/snd-soc-omap-dmic.ko
+kernel/sound/soc/ti/snd-soc-omap-mcbsp.ko
+kernel/sound/soc/ti/snd-soc-omap-mcpdm.ko
+kernel/sound/soc/ti/snd-soc-rx51.ko
+kernel/sound/soc/ti/snd-soc-omap3pandora.ko
+kernel/sound/soc/ti/snd-soc-omap-twl4030.ko
+kernel/sound/soc/ti/snd-soc-omap-abe-twl6040.ko
+kernel/sound/soc/ti/snd-soc-omap-hdmi.ko

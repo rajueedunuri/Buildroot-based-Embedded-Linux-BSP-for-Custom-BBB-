@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-avermedia-rm-ks.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/keymaps/rc-avermedia-rm-ks.ko drivers/media/rc/keymaps/rc-avermedia-rm-ks.o drivers/media/rc/keymaps/rc-avermedia-rm-ks.mod.o ;  true

@@ -1,0 +1,6 @@
+kernel/drivers/mfd/lp873x.ko
+kernel/drivers/mfd/lp87565.ko
+kernel/drivers/mfd/tps65217.ko
+kernel/drivers/mfd/tps65218.ko
+kernel/drivers/mfd/mfd-core.ko
+kernel/drivers/mfd/motorola-cpcap.ko

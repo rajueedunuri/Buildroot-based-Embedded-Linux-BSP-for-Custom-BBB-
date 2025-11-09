@@ -1,0 +1,1 @@
+cmd_drivers/mtd/nand/onenand/built-in.a := rm -f drivers/mtd/nand/onenand/built-in.a; arm-linux-gnueabihf-ar rcSTPD drivers/mtd/nand/onenand/built-in.a drivers/mtd/nand/onenand/onenand_base.o drivers/mtd/nand/onenand/onenand_bbt.o drivers/mtd/nand/onenand/omap2.o

@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/omap_wdt.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/watchdog/omap_wdt.ko drivers/watchdog/omap_wdt.o drivers/watchdog/omap_wdt.mod.o ;  true

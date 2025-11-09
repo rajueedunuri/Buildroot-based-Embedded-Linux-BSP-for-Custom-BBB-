@@ -1,0 +1,1 @@
+cmd_sound/soc/ti/snd-soc-omap-mcbsp.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o sound/soc/ti/snd-soc-omap-mcbsp.ko sound/soc/ti/snd-soc-omap-mcbsp.o sound/soc/ti/snd-soc-omap-mcbsp.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-generic.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/hid/hid-generic.ko drivers/hid/hid-generic.o drivers/hid/hid-generic.mod.o ;  true

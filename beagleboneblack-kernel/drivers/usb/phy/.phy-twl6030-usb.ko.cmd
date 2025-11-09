@@ -1,0 +1,1 @@
+cmd_drivers/usb/phy/phy-twl6030-usb.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/phy/phy-twl6030-usb.ko drivers/usb/phy/phy-twl6030-usb.o drivers/usb/phy/phy-twl6030-usb.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-zx-irdec.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/keymaps/rc-zx-irdec.ko drivers/media/rc/keymaps/rc-zx-irdec.o drivers/media/rc/keymaps/rc-zx-irdec.mod.o ;  true

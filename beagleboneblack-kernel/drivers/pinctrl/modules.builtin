@@ -1,0 +1,2 @@
+kernel/drivers/pinctrl/pinctrl-single.ko
+kernel/drivers/pinctrl/ti/pinctrl-ti-iodelay.ko

@@ -1,0 +1,1 @@
+cmd_drivers/soc/ti/wkup_m3_ipc.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/soc/ti/wkup_m3_ipc.ko drivers/soc/ti/wkup_m3_ipc.o drivers/soc/ti/wkup_m3_ipc.mod.o ;  true

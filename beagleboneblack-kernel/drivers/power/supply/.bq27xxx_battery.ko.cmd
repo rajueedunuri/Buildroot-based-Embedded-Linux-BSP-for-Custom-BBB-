@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/bq27xxx_battery.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/power/supply/bq27xxx_battery.ko drivers/power/supply/bq27xxx_battery.o drivers/power/supply/bq27xxx_battery.mod.o ;  true

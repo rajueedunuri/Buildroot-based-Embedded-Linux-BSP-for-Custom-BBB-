@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/legacy/g_nokia.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/gadget/legacy/g_nokia.ko drivers/usb/gadget/legacy/g_nokia.o drivers/usb/gadget/legacy/g_nokia.mod.o ;  true

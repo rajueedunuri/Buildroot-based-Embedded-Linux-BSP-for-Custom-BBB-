@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/bq24735-charger.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/power/supply/bq24735-charger.ko drivers/power/supply/bq24735-charger.o drivers/power/supply/bq24735-charger.mod.o ;  true

@@ -1,0 +1,36 @@
+!<thin>
+//                                              308       `
+onenand/onenand_base.o/
+onenand/onenand_bbt.o/
+onenand/omap2.o/
+raw/nand_base.o/
+raw/nand_bbt.o/
+raw/nand_timings.o/
+raw/nand_ids.o/
+raw/nand_amd.o/
+raw/nand_hynix.o/
+raw/nand_macronix.o/
+raw/nand_micron.o/
+raw/nand_samsung.o/
+raw/nand_toshiba.o/
+raw/nand_ecc.o/
+raw/nand_bch.o/
+raw/omap2.o/
+raw/omap_elm.o/
+/0              0           0     0     644     87268     `
+/24             0           0     0     644     14792     `
+/47             0           0     0     644     45148     `
+/64             0           0     0     644     172208    `
+/81             0           0     0     644     44216     `
+/97             0           0     0     644     15080     `
+/117            0           0     0     644     18136     `
+/133            0           0     0     644     12468     `
+/149            0           0     0     644     23368     `
+/167           /0           0     0     644     12956     `
+/188            0           0     0     644     22232     `
+/207            0           0     0     644     13748     `
+/227            0           0     0     644     13236     `
+/247            0           0     0     644     19532     `
+/263            0           0     0     644     19340     `
+/279            0           0     0     644     80764     `
+/292            0           0     0     644     36300     `

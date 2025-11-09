@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-twinhan-dtv-cab-ci.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/keymaps/rc-twinhan-dtv-cab-ci.ko drivers/media/rc/keymaps/rc-twinhan-dtv-cab-ci.o drivers/media/rc/keymaps/rc-twinhan-dtv-cab-ci.mod.o ;  true

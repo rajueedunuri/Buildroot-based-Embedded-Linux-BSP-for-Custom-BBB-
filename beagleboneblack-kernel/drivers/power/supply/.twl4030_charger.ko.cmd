@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/twl4030_charger.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/power/supply/twl4030_charger.ko drivers/power/supply/twl4030_charger.o drivers/power/supply/twl4030_charger.mod.o ;  true

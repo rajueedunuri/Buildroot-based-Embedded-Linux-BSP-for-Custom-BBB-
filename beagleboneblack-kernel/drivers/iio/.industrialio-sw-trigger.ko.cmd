@@ -1,0 +1,1 @@
+cmd_drivers/iio/industrialio-sw-trigger.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/iio/industrialio-sw-trigger.ko drivers/iio/industrialio-sw-trigger.o drivers/iio/industrialio-sw-trigger.mod.o ;  true

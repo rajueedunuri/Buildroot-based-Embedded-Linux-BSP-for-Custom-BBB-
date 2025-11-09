@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/tsc2005.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/input/touchscreen/tsc2005.ko drivers/input/touchscreen/tsc2005.o drivers/input/touchscreen/tsc2005.mod.o ;  true

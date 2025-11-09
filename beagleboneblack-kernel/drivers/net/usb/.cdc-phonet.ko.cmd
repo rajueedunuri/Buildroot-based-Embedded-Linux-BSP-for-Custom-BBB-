@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/cdc-phonet.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/usb/cdc-phonet.ko drivers/net/usb/cdc-phonet.o drivers/net/usb/cdc-phonet.mod.o ;  true

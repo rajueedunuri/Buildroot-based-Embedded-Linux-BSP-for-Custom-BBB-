@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-astrometa-t2hybrid.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/keymaps/rc-astrometa-t2hybrid.ko drivers/media/rc/keymaps/rc-astrometa-t2hybrid.o drivers/media/rc/keymaps/rc-astrometa-t2hybrid.mod.o ;  true

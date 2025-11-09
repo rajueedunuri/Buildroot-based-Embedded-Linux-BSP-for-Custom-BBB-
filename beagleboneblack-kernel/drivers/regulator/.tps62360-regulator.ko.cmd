@@ -1,0 +1,1 @@
+cmd_drivers/regulator/tps62360-regulator.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/regulator/tps62360-regulator.ko drivers/regulator/tps62360-regulator.o drivers/regulator/tps62360-regulator.mod.o ;  true

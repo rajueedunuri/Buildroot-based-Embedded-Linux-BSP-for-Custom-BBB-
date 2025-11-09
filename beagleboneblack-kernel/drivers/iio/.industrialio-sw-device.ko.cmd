@@ -1,0 +1,1 @@
+cmd_drivers/iio/industrialio-sw-device.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/iio/industrialio-sw-device.ko drivers/iio/industrialio-sw-device.o drivers/iio/industrialio-sw-device.mod.o ;  true

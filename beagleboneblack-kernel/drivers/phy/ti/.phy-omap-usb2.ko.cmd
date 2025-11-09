@@ -1,0 +1,1 @@
+cmd_drivers/phy/ti/phy-omap-usb2.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/phy/ti/phy-omap-usb2.ko drivers/phy/ti/phy-omap-usb2.o drivers/phy/ti/phy-omap-usb2.mod.o ;  true

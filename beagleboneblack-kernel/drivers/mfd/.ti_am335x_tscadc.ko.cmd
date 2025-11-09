@@ -1,0 +1,1 @@
+cmd_drivers/mfd/ti_am335x_tscadc.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/mfd/ti_am335x_tscadc.ko drivers/mfd/ti_am335x_tscadc.o drivers/mfd/ti_am335x_tscadc.mod.o ;  true

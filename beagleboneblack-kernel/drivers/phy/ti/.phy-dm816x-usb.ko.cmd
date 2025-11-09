@@ -1,0 +1,1 @@
+cmd_drivers/phy/ti/phy-dm816x-usb.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/phy/ti/phy-dm816x-usb.ko drivers/phy/ti/phy-dm816x-usb.o drivers/phy/ti/phy-dm816x-usb.mod.o ;  true

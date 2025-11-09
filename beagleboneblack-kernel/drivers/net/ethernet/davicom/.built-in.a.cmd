@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/davicom/built-in.a := rm -f drivers/net/ethernet/davicom/built-in.a; arm-linux-gnueabihf-ar rcSTPD drivers/net/ethernet/davicom/built-in.a drivers/net/ethernet/davicom/dm9000.o

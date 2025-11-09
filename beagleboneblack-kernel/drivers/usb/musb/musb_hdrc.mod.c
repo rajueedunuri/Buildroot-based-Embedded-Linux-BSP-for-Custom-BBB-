@@ -1,0 +1,178 @@
+#include <linux/build-salt.h>
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__attribute__((section(".gnu.linkonce.this_module"))) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used
+__attribute__((section("__versions"))) = {
+	{ 0x9e2dc0be, "module_layout" },
+	{ 0x6d662533, "_find_first_bit_le" },
+	{ 0x2d3385d3, "system_wq" },
+	{ 0x11a32253, "kmalloc_caches" },
+	{ 0x12da5bb2, "__kmalloc" },
+	{ 0xdd226fa9, "__raw_readsw" },
+	{ 0x8451fdfe, "sg_init_table" },
+	{ 0xaa5be5f4, "__pm_runtime_idle" },
+	{ 0x982702bf, "of_property_read_string_helper" },
+	{ 0xf246c744, "trace_handle_return" },
+	{ 0xf7163ec9, "__raw_readsb" },
+	{ 0x9d1acb48, "_raw_spin_unlock" },
+	{ 0xeb03b389, "__raw_readsl" },
+	{ 0x6bcd111f, "usb_add_hcd" },
+	{ 0x4b92b95b, "debugfs_create_dir" },
+	{ 0x78bb04dc, "mem_map" },
+	{ 0xa0f9cb64, "__pm_runtime_disable" },
+	{ 0x4b6e0094, "usb_hcd_unmap_urb_for_dma" },
+	{ 0x8dda7239, "single_open" },
+	{ 0x2e5810c6, "__aeabi_unwind_cpp_pr1" },
+	{ 0x3b8d03fe, "del_timer" },
+	{ 0x5cf72e0b, "usb_remove_hcd" },
+	{ 0xbaed6b9, "__pm_runtime_use_autosuspend" },
+	{ 0x97255bdf, "strlen" },
+	{ 0xdf5b5cdc, "__pm_runtime_suspend" },
+	{ 0x29c180c2, "hrtimer_forward" },
+	{ 0x5a6c6dcf, "arm_dma_ops" },
+	{ 0xb8cff4ac, "dev_printk" },
+	{ 0xfb03ebf0, "single_release" },
+	{ 0xaeb7eb0b, "usb_create_hcd" },
+	{ 0x904485af, "hrtimer_cancel" },
+	{ 0xb70789e, "__might_fault" },
+	{ 0xe9a4632e, "usb_hcd_poll_rh_status" },
+	{ 0xf7802486, "__aeabi_uidivmod" },
+	{ 0xfae03259, "delayed_work_timer_fn" },
+	{ 0x259d27f2, "usb_del_gadget_udc" },
+	{ 0xd3f57a2, "_find_next_bit_le" },
+	{ 0x68828cbf, "usb_gadget_giveback_request" },
+	{ 0x6e617324, "seq_printf" },
+	{ 0x5f584ff0, "platform_bus_type" },
+	{ 0x551ce446, "devm_ioremap_resource" },
+	{ 0xdad97f94, "__raw_writesw" },
+	{ 0xf67985d7, "param_ops_bool" },
+	{ 0x34cfdf18, "init_timer_key" },
+	{ 0x28cc25db, "arm_copy_from_user" },
+	{ 0xe14d2400, "cancel_delayed_work_sync" },
+	{ 0x70858f9a, "usb_hcd_giveback_urb" },
+	{ 0xf8f1d73b, "__pm_runtime_resume" },
+	{ 0x288be316, "usb_ep_set_halt" },
+	{ 0x36d35e2e, "trace_event_buffer_reserve" },
+	{ 0x70737823, "debugfs_create_file" },
+	{ 0x91715312, "sprintf" },
+	{ 0xdbd71d41, "debugfs_remove_recursive" },
+	{ 0xd4a5646e, "seq_read" },
+	{ 0x92e12f89, "sysfs_remove_group" },
+	{ 0x2fca63ef, "dma_request_chan" },
+	{ 0xa99c50b, "__platform_driver_register" },
+	{ 0x526c3a6c, "jiffies" },
+	{ 0xc48cee79, "usb_put_hcd" },
+	{ 0xce2840e7, "irq_set_irq_wake" },
+	{ 0xe707d823, "__aeabi_uidiv" },
+	{ 0x239a6181, "trace_define_field" },
+	{ 0x77febd, "hrtimer_start_range_ns" },
+	{ 0x5f754e5a, "memset" },
+	{ 0x4c65d17c, "usb_hcd_link_urb_to_ep" },
+	{ 0x8be64688, "usb_gadget_udc_reset" },
+	{ 0x1c0caf9d, "_raw_spin_unlock_irqrestore" },
+	{ 0x892da873, "debug_lockdep_rcu_enabled" },
+	{ 0xb9092890, "sg_miter_start" },
+	{ 0x7c32d0f0, "printk" },
+	{ 0x20c55ae0, "sscanf" },
+	{ 0x8ea529f5, "sysfs_create_group" },
+	{ 0x3d9f21fe, "__cpu_online_mask" },
+	{ 0x1fa9f70c, "trace_event_reg" },
+	{ 0xf6e58e01, "sg_miter_stop" },
+	{ 0x84b183ae, "strncmp" },
+	{ 0x16305289, "warn_slowpath_null" },
+	{ 0x4505a454, "platform_get_resource" },
+	{ 0xacf5b256, "mod_timer" },
+	{ 0xd6b8e852, "request_threaded_irq" },
+	{ 0x8e865d3c, "arm_delay_ops" },
+	{ 0x19d79f4a, "device_init_wakeup" },
+	{ 0x9cb2468e, "device_wakeup_enable" },
+	{ 0x167c0253, "_dev_err" },
+	{ 0xfcbbd5a3, "devm_kfree" },
+	{ 0x394e6832, "perf_trace_run_bpf_submit" },
+	{ 0xaaecf75d, "perf_trace_buf_alloc" },
+	{ 0x629d0655, "sg_miter_next" },
+	{ 0x16a42703, "rcu_read_lock_sched_held" },
+	{ 0x4aba75c0, "usb_hcd_check_unlink_urb" },
+	{ 0x3a1e9989, "pm_runtime_enable" },
+	{ 0xd79f6482, "trace_event_ignore_this_pid" },
+	{ 0x6bdb1a8f, "usb_add_gadget_udc" },
+	{ 0x428dd790, "queue_delayed_work_on" },
+	{ 0xdb7305a1, "__stack_chk_fail" },
+	{ 0x232fc77c, "platform_get_irq_byname" },
+	{ 0x1bcbbff6, "usb_hcd_map_urb_for_dma" },
+	{ 0xbb119b4b, "flush_delayed_work" },
+	{ 0xf8b63325, "__raw_spin_lock_init" },
+	{ 0xdc3a7e18, "sysfs_notify" },
+	{ 0x6ce3e45c, "usb_ep_set_maxpacket_limit" },
+	{ 0x22859fa1, "trace_event_buffer_commit" },
+	{ 0xe6c8e1, "dev_driver_string" },
+	{ 0x7ed7cc63, "usb_get_dr_mode" },
+	{ 0xab9cf504, "kmem_cache_alloc_trace" },
+	{ 0xf1f3db52, "_raw_spin_lock" },
+	{ 0x1176e07f, "__per_cpu_offset" },
+	{ 0x89ea9fd8, "_raw_spin_lock_irqsave" },
+	{ 0xf0ed2ef4, "__raw_writesb" },
+	{ 0xc2c5b2b6, "vsnprintf" },
+	{ 0x11ba8557, "event_triggers_call" },
+	{ 0x822137e2, "arm_heavy_mb" },
+	{ 0xecf8a3b4, "__raw_writesl" },
+	{ 0x2f0d9053, "usb_otg_state_string" },
+	{ 0x1e047854, "warn_slowpath_fmt" },
+	{ 0xfe86419a, "seq_lseek" },
+	{ 0x2f425f5, "dma_release_channel" },
+	{ 0x37a0cba, "kfree" },
+	{ 0xa46f2f1b, "kstrtouint" },
+	{ 0x9d669763, "memcpy" },
+	{ 0x2be83e5a, "trace_event_raw_init" },
+	{ 0x586270bb, "hrtimer_init" },
+	{ 0x7ec0fff2, "lockdep_init_map" },
+	{ 0xbd7bdc74, "pm_runtime_set_autosuspend_delay" },
+	{ 0xba585fe3, "device_unregister" },
+	{ 0x1229f08f, "usb_phy_set_charger_current" },
+	{ 0xefd6cf06, "__aeabi_unwind_cpp_pr0" },
+	{ 0x222e7ce2, "sysfs_streq" },
+	{ 0x8f678b07, "__stack_chk_guard" },
+	{ 0x35c08ca2, "trace_raw_output_prep" },
+	{ 0x3c93ea25, "trace_seq_printf" },
+	{ 0x7b8fb54b, "param_ops_ushort" },
+	{ 0x2a991dae, "platform_driver_unregister" },
+	{ 0x7f02188f, "__msecs_to_jiffies" },
+	{ 0xc70dd74a, "usb_hcd_unlink_urb_from_ep" },
+	{ 0x8dc31ae8, "usb_hcd_resume_root_hub" },
+	{ 0xd424f9ac, "devm_kmalloc" },
+	{ 0xc1514a3b, "free_irq" },
+	{ 0xae0bd7af, "lockdep_rcu_suspicious" },
+	{ 0xe914e41e, "strcpy" },
+};
+
+static const char __module_depends[]
+__used
+__attribute__((section(".modinfo"))) =
+"depends=usbcore";
+
+
+MODULE_INFO(srcversion, "45464471C5CFAFA53AE78C8");

@@ -1,0 +1,1 @@
+cmd_drivers/input/input-leds.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/input/input-leds.ko drivers/input/input-leds.o drivers/input/input-leds.mod.o ;  true

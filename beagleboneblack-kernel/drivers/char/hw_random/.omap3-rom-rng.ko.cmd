@@ -1,0 +1,1 @@
+cmd_drivers/char/hw_random/omap3-rom-rng.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/char/hw_random/omap3-rom-rng.ko drivers/char/hw_random/omap3-rom-rng.o drivers/char/hw_random/omap3-rom-rng.mod.o ;  true

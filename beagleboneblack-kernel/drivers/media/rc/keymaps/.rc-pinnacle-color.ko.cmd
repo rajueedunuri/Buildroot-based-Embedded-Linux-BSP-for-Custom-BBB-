@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-pinnacle-color.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/keymaps/rc-pinnacle-color.ko drivers/media/rc/keymaps/rc-pinnacle-color.o drivers/media/rc/keymaps/rc-pinnacle-color.mod.o ;  true

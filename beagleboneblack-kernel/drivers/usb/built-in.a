@@ -1,0 +1,23 @@
+!<thin>
+//                                              176       `
+phy/phy.o/
+phy/of.o/
+phy/phy-generic.o/
+phy/phy-am335x-control.o/
+phy/phy-am335x.o/
+host/pci-quirks.o/
+gadget/udc/core.o/
+gadget/udc/trace.o/
+common/common.o/
+common/debug.o/
+
+/0              0           0     0     644     38292     `
+/11             0           0     0     644     12732     `
+/21             0           0     0     644     36016     `
+/40             0           0     0     644     19712     `
+/66             0           0     0     644     22648     `
+/84             0           0     0     644     50268     `
+/103            0           0     0     644     128096    `
+/122            0           0     0     644     58828     `
+/142            0           0     0     644     24180     `
+/159            0           0     0     644     17132     `

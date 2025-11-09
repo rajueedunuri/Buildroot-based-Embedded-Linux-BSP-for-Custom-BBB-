@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-cpcap.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/rtc/rtc-cpcap.ko drivers/rtc/rtc-cpcap.o drivers/rtc/rtc-cpcap.mod.o ;  true

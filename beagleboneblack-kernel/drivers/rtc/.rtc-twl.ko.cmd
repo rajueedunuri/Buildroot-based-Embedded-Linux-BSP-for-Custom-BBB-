@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-twl.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/rtc/rtc-twl.ko drivers/rtc/rtc-twl.o drivers/rtc/rtc-twl.mod.o ;  true

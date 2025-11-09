@@ -1,0 +1,1 @@
+cmd_drivers/leds/led-class.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/leds/led-class.ko drivers/leds/led-class.o drivers/leds/led-class.mod.o ;  true

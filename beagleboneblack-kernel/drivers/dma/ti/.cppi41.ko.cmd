@@ -1,0 +1,1 @@
+cmd_drivers/dma/ti/cppi41.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/dma/ti/cppi41.ko drivers/dma/ti/cppi41.o drivers/dma/ti/cppi41.mod.o ;  true

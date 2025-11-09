@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-dm1105-nec.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/keymaps/rc-dm1105-nec.ko drivers/media/rc/keymaps/rc-dm1105-nec.o drivers/media/rc/keymaps/rc-dm1105-nec.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/memory/emif.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/memory/emif.ko drivers/memory/emif.o drivers/memory/emif.mod.o ;  true

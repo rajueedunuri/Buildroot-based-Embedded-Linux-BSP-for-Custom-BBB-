@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/twl4030_wdt.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/watchdog/twl4030_wdt.ko drivers/watchdog/twl4030_wdt.o drivers/watchdog/twl4030_wdt.mod.o ;  true

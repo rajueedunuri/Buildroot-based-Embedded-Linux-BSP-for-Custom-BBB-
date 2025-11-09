@@ -1,0 +1,1 @@
+cmd_drivers/net/can/c_can/c_can_platform.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/can/c_can/c_can_platform.ko drivers/net/can/c_can/c_can_platform.o drivers/net/can/c_can/c_can_platform.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/phy/ti/phy-twl4030-usb.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/phy/ti/phy-twl4030-usb.ko drivers/phy/ti/phy-twl4030-usb.o drivers/phy/ti/phy-twl4030-usb.mod.o ;  true

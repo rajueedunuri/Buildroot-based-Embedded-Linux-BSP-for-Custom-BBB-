@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-omap.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/rtc/rtc-omap.ko drivers/rtc/rtc-omap.o drivers/rtc/rtc-omap.mod.o ;  true

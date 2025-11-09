@@ -1,0 +1,1 @@
+cmd_drivers/ata/ahci_dm816.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/ata/ahci_dm816.ko drivers/ata/ahci_dm816.o drivers/ata/ahci_dm816.mod.o ;  true

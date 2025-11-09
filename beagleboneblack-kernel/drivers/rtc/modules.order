@@ -1,0 +1,6 @@
+kernel/drivers/rtc/rtc-cpcap.ko
+kernel/drivers/rtc/rtc-ds1307.ko
+kernel/drivers/rtc/rtc-m41t80.ko
+kernel/drivers/rtc/rtc-omap.ko
+kernel/drivers/rtc/rtc-palmas.ko
+kernel/drivers/rtc/rtc-twl.ko

@@ -1,0 +1,7 @@
+kernel/drivers/net/phy/libphy.ko
+kernel/drivers/net/phy/at803x.ko
+kernel/drivers/net/phy/dp83848.ko
+kernel/drivers/net/phy/dp83867.ko
+kernel/drivers/net/phy/fixed_phy.ko
+kernel/drivers/net/phy/micrel.ko
+kernel/drivers/net/phy/smsc.ko

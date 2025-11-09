@@ -1,0 +1,3 @@
+kernel/drivers/misc/eeprom/at24.ko
+kernel/drivers/misc/tsl2550.ko
+kernel/drivers/misc/pci_endpoint_test.ko

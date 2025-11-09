@@ -1,0 +1,6 @@
+kernel/drivers/usb/gadget/legacy/g_zero.ko
+kernel/drivers/usb/gadget/legacy/g_ether.ko
+kernel/drivers/usb/gadget/legacy/gadgetfs.ko
+kernel/drivers/usb/gadget/legacy/g_ffs.ko
+kernel/drivers/usb/gadget/legacy/g_nokia.ko
+kernel/drivers/usb/gadget/legacy/g_ncm.ko

@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/omapdrm/displays/panel-nec-nl8048hl11.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/gpu/drm/omapdrm/displays/panel-nec-nl8048hl11.ko drivers/gpu/drm/omapdrm/displays/panel-nec-nl8048hl11.o drivers/gpu/drm/omapdrm/displays/panel-nec-nl8048hl11.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/input/serio/libps2.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/input/serio/libps2.ko drivers/input/serio/libps2.o drivers/input/serio/libps2.mod.o ;  true

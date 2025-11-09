@@ -1,0 +1,1 @@
+cmd_drivers/pwm/pwm-omap-dmtimer.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/pwm/pwm-omap-dmtimer.ko drivers/pwm/pwm-omap-dmtimer.o drivers/pwm/pwm-omap-dmtimer.mod.o ;  true

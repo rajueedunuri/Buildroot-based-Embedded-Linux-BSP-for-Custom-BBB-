@@ -1,0 +1,5 @@
+kernel/drivers/phy/motorola/phy-cpcap-usb.ko
+kernel/drivers/phy/motorola/phy-mapphone-mdm6600.ko
+kernel/drivers/phy/ti/phy-dm816x-usb.ko
+kernel/drivers/phy/ti/phy-omap-usb2.ko
+kernel/drivers/phy/ti/phy-twl4030-usb.ko

@@ -1,0 +1,4 @@
+kernel/drivers/input/keyboard/atkbd.ko
+kernel/drivers/input/keyboard/matrix_keypad.ko
+kernel/drivers/input/keyboard/omap4-keypad.ko
+kernel/drivers/input/keyboard/twl4030_keypad.ko

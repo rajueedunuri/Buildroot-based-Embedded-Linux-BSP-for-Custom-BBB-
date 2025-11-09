@@ -1,0 +1,1 @@
+cmd_drivers/spi/spi-ti-qspi.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/spi/spi-ti-qspi.ko drivers/spi/spi-ti-qspi.o drivers/spi/spi-ti-qspi.mod.o ;  true

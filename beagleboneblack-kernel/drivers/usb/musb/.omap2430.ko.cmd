@@ -1,0 +1,1 @@
+cmd_drivers/usb/musb/omap2430.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/musb/omap2430.ko drivers/usb/musb/omap2430.o drivers/usb/musb/omap2430.mod.o ;  true

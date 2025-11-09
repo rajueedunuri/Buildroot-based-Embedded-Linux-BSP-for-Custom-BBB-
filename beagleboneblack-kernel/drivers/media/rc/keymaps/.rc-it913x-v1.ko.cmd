@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-it913x-v1.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/keymaps/rc-it913x-v1.ko drivers/media/rc/keymaps/rc-it913x-v1.o drivers/media/rc/keymaps/rc-it913x-v1.mod.o ;  true

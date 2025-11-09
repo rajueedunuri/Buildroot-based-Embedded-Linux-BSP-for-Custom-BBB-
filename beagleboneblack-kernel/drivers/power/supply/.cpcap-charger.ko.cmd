@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/cpcap-charger.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/power/supply/cpcap-charger.ko drivers/power/supply/cpcap-charger.o drivers/power/supply/cpcap-charger.mod.o ;  true

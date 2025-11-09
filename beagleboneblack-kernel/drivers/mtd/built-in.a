@@ -1,0 +1,95 @@
+!<thin>
+//                                              794       `
+mtdcore.o/
+mtdsuper.o/
+mtdconcat.o/
+mtdpart.o/
+mtdchar.o/
+ofpart.o/
+cmdlinepart.o/
+mtd_blkdevs.o/
+mtdblock.o/
+mtdoops.o/
+chips/chipreg.o/
+chips/cfi_probe.o/
+chips/cfi_util.o/
+chips/cfi_cmdset_0001.o/
+chips/gen_probe.o/
+maps/physmap.o/
+maps/physmap_of_core.o/
+nand/onenand/onenand_base.o/
+nand/onenand/onenand_bbt.o/
+nand/onenand/omap2.o/
+nand/raw/nand_base.o/
+nand/raw/nand_bbt.o/
+nand/raw/nand_timings.o/
+nand/raw/nand_ids.o/
+nand/raw/nand_amd.o/
+nand/raw/nand_hynix.o/
+nand/raw/nand_macronix.o/
+nand/raw/nand_micron.o/
+nand/raw/nand_samsung.o/
+nand/raw/nand_toshiba.o/
+nand/raw/nand_ecc.o/
+nand/raw/nand_bch.o/
+nand/raw/omap2.o/
+nand/raw/omap_elm.o/
+ubi/vtbl.o/
+ubi/vmt.o/
+ubi/upd.o/
+ubi/build.o/
+ubi/cdev.o/
+ubi/kapi.o/
+ubi/eba.o/
+ubi/io.o/
+ubi/wl.o/
+ubi/attach.o/
+ubi/misc.o/
+ubi/debug.o/
+
+/0              0           0     0     644     96704     `
+/11             0           0     0     644     23100     `
+/23             0           0     0     644     41644     `
+/36             0           0     0     644     50068     `
+/47             0           0     0     644     78260     `
+/58             0           0     0     644     20532     `
+/68             0           0     0     644     20952     `
+/83             0           0     0     644     44260     `
+/98             0           0     0     644     20880     `
+/110            0           0     0     644     29720     `
+/121            0           0     0     644     17668     `
+/138            0           0     0     644     23820     `
+/157            0           0     0     644     30024     `
+/175            0           0     0     644     97872     `
+/200            0           0     0     644     18628     `
+/219            0           0     0     644     21204     `
+/235            0           0     0     644     24944     `
+/259            0           0     0     644     87268     `
+/288            0           0     0     644     14792     `
+/316            0           0     0     644     45148     `
+/338            0           0     0     644     172208    `
+/360            0           0     0     644     44216     `
+/381            0           0     0     644     15080     `
+/406            0           0     0     644     18136     `
+/427            0           0     0     644     12468     `
+/448            0           0     0     644     23368     `
+/471           /0           0     0     644     12956     `
+/497            0           0     0     644     22232     `
+/521            0           0     0     644     13748     `
+/546            0           0     0     644     13236     `
+/571            0           0     0     644     19532     `
+/592            0           0     0     644     19340     `
+/613            0           0     0     644     80764     `
+/631            0           0     0     644     36300     `
+/652            0           0     0     644     32588     `
+/664            0           0     0     644     37096     `
+/675            0           0     0     644     24756     `
+/686            0           0     0     644     53928     `
+/699            0           0     0     644     53944     `
+/711            0           0     0     644     40464     `
+/723            0           0     0     644     55380     `
+/734            0           0     0     644     45212     `
+/744            0           0     0     644     62620     `
+/754            0           0     0     644     52752     `
+/768            0           0     0     644     16688     `
+/780            0           0     0     644     39264     `

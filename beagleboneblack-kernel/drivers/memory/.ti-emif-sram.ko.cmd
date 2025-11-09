@@ -1,0 +1,1 @@
+cmd_drivers/memory/ti-emif-sram.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/memory/ti-emif-sram.ko drivers/memory/ti-emif-sram.o drivers/memory/ti-emif-sram.mod.o ;  true

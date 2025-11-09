@@ -1,0 +1,1 @@
+cmd_drivers/phy/motorola/phy-cpcap-usb.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/phy/motorola/phy-cpcap-usb.ko drivers/phy/motorola/phy-cpcap-usb.o drivers/phy/motorola/phy-cpcap-usb.mod.o ;  true

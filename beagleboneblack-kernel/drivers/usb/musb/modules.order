@@ -1,0 +1,5 @@
+kernel/drivers/usb/musb/musb_hdrc.ko
+kernel/drivers/usb/musb/omap2430.ko
+kernel/drivers/usb/musb/am35x.ko
+kernel/drivers/usb/musb/musb_dsps.ko
+kernel/drivers/usb/musb/musb_am335x.ko

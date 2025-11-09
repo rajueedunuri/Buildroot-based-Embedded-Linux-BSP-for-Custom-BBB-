@@ -1,0 +1,1 @@
+cmd_drivers/usb/host/ohci-platform.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/host/ohci-platform.ko drivers/usb/host/ohci-platform.o drivers/usb/host/ohci-platform.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/built-in.a := rm -f drivers/mmc/host/built-in.a; arm-linux-gnueabihf-ar rcSTPD drivers/mmc/host/built-in.a drivers/mmc/host/sdhci.o drivers/mmc/host/omap.o drivers/mmc/host/omap_hsmmc.o drivers/mmc/host/sdhci-pltfm.o drivers/mmc/host/sdhci-omap.o

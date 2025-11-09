@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/palmas-pwrbutton.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/input/misc/palmas-pwrbutton.ko drivers/input/misc/palmas-pwrbutton.o drivers/input/misc/palmas-pwrbutton.mod.o ;  true

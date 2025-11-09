@@ -1,0 +1,1 @@
+cmd_crypto/chacha20_generic.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o crypto/chacha20_generic.ko crypto/chacha20_generic.o crypto/chacha20_generic.mod.o ;  true

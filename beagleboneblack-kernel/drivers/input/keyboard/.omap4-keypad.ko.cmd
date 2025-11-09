@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/omap4-keypad.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/input/keyboard/omap4-keypad.ko drivers/input/keyboard/omap4-keypad.o drivers/input/keyboard/omap4-keypad.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/usb/built-in.a := rm -f drivers/usb/built-in.a; arm-linux-gnueabihf-ar rcSTPD drivers/usb/built-in.a drivers/usb/phy/built-in.a drivers/usb/host/built-in.a drivers/usb/gadget/built-in.a drivers/usb/common/built-in.a

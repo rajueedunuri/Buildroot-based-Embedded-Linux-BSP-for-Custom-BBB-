@@ -1,0 +1,1 @@
+cmd_drivers/pwm/pwm-twl.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/pwm/pwm-twl.ko drivers/pwm/pwm-twl.o drivers/pwm/pwm-twl.mod.o ;  true

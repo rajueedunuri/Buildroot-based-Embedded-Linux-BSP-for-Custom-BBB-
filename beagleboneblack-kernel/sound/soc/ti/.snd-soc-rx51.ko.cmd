@@ -1,0 +1,1 @@
+cmd_sound/soc/ti/snd-soc-rx51.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o sound/soc/ti/snd-soc-rx51.ko sound/soc/ti/snd-soc-rx51.o sound/soc/ti/snd-soc-rx51.mod.o ;  true

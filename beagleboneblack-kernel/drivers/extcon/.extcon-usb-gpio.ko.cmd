@@ -1,0 +1,1 @@
+cmd_drivers/extcon/extcon-usb-gpio.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/extcon/extcon-usb-gpio.ko drivers/extcon/extcon-usb-gpio.o drivers/extcon/extcon-usb-gpio.mod.o ;  true

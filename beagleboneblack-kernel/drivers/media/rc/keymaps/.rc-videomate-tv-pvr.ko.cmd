@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-videomate-tv-pvr.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/keymaps/rc-videomate-tv-pvr.ko drivers/media/rc/keymaps/rc-videomate-tv-pvr.o drivers/media/rc/keymaps/rc-videomate-tv-pvr.mod.o ;  true

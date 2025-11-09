@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/ghash-arm-ce.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o arch/arm/crypto/ghash-arm-ce.ko arch/arm/crypto/ghash-arm-ce.o arch/arm/crypto/ghash-arm-ce.mod.o ;  true

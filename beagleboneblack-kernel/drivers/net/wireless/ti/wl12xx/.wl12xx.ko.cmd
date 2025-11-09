@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ti/wl12xx/wl12xx.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/wireless/ti/wl12xx/wl12xx.ko drivers/net/wireless/ti/wl12xx/wl12xx.o drivers/net/wireless/ti/wl12xx/wl12xx.mod.o ;  true

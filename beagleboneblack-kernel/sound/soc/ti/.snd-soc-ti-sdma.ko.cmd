@@ -1,0 +1,1 @@
+cmd_sound/soc/ti/snd-soc-ti-sdma.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o sound/soc/ti/snd-soc-ti-sdma.ko sound/soc/ti/snd-soc-ti-sdma.o sound/soc/ti/snd-soc-ti-sdma.mod.o ;  true

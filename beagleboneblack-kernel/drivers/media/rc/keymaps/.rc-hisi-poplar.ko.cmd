@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-hisi-poplar.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/keymaps/rc-hisi-poplar.ko drivers/media/rc/keymaps/rc-hisi-poplar.o drivers/media/rc/keymaps/rc-hisi-poplar.mod.o ;  true

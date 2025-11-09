@@ -1,0 +1,1 @@
+cmd_fs/autofs/autofs4.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o fs/autofs/autofs4.ko fs/autofs/autofs4.o fs/autofs/autofs4.mod.o ;  true

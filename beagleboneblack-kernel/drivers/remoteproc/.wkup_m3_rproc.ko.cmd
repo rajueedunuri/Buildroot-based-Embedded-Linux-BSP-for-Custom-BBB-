@@ -1,0 +1,1 @@
+cmd_drivers/remoteproc/wkup_m3_rproc.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/remoteproc/wkup_m3_rproc.ko drivers/remoteproc/wkup_m3_rproc.o drivers/remoteproc/wkup_m3_rproc.mod.o ;  true

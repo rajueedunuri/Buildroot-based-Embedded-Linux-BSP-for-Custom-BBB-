@@ -1,0 +1,1 @@
+cmd_drivers/hsi/controllers/omap_ssi.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/hsi/controllers/omap_ssi.ko drivers/hsi/controllers/omap_ssi.o drivers/hsi/controllers/omap_ssi.mod.o ;  true

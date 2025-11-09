@@ -1,0 +1,2 @@
+kernel/drivers/memory/emif.ko
+kernel/drivers/memory/ti-emif-sram.ko

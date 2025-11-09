@@ -1,0 +1,1 @@
+cmd_drivers/misc/tsl2550.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/misc/tsl2550.ko drivers/misc/tsl2550.o drivers/misc/tsl2550.mod.o ;  true

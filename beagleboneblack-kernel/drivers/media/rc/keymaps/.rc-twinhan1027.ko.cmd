@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-twinhan1027.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/keymaps/rc-twinhan1027.ko drivers/media/rc/keymaps/rc-twinhan1027.o drivers/media/rc/keymaps/rc-twinhan1027.mod.o ;  true

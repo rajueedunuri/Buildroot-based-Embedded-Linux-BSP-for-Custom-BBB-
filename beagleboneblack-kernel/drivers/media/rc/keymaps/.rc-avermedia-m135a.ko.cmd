@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-avermedia-m135a.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/keymaps/rc-avermedia-m135a.ko drivers/media/rc/keymaps/rc-avermedia-m135a.o drivers/media/rc/keymaps/rc-avermedia-m135a.mod.o ;  true

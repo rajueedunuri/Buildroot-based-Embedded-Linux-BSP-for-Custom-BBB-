@@ -1,0 +1,1 @@
+cmd_drivers/usb/host/xhci-plat-hcd.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/host/xhci-plat-hcd.ko drivers/usb/host/xhci-plat-hcd.o drivers/usb/host/xhci-plat-hcd.mod.o ;  true

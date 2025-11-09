@@ -1,0 +1,1 @@
+cmd_drivers/hsi/clients/ssi_protocol.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/hsi/clients/ssi_protocol.ko drivers/hsi/clients/ssi_protocol.o drivers/hsi/clients/ssi_protocol.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/iio/industrialio-configfs.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/iio/industrialio-configfs.ko drivers/iio/industrialio-configfs.o drivers/iio/industrialio-configfs.mod.o ;  true

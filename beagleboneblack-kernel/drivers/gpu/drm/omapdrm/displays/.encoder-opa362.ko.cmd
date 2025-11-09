@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/omapdrm/displays/encoder-opa362.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/gpu/drm/omapdrm/displays/encoder-opa362.ko drivers/gpu/drm/omapdrm/displays/encoder-opa362.o drivers/gpu/drm/omapdrm/displays/encoder-opa362.mod.o ;  true

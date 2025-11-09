@@ -1,0 +1,1 @@
+cmd_drivers/bus/built-in.a := rm -f drivers/bus/built-in.a; arm-linux-gnueabihf-ar rcSTPD drivers/bus/built-in.a drivers/bus/omap_l3_smx.o drivers/bus/omap_l3_noc.o drivers/bus/omap-ocp2scp.o drivers/bus/ti-sysc.o

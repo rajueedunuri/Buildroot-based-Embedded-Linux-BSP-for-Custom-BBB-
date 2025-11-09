@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/rc-core.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/rc-core.ko drivers/media/rc/rc-core.o drivers/media/rc/rc-core.mod.o ;  true

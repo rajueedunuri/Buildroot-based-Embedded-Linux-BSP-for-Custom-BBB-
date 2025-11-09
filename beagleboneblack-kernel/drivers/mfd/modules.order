@@ -1,0 +1,2 @@
+kernel/drivers/mfd/ti_am335x_tscadc.ko
+kernel/drivers/mfd/ti-lmu.ko

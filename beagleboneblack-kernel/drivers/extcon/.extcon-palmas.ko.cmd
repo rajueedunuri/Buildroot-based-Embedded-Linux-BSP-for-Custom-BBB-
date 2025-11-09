@@ -1,0 +1,1 @@
+cmd_drivers/extcon/extcon-palmas.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/extcon/extcon-palmas.ko drivers/extcon/extcon-palmas.o drivers/extcon/extcon-palmas.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/mailbox/omap-mailbox.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/mailbox/omap-mailbox.ko drivers/mailbox/omap-mailbox.o drivers/mailbox/omap-mailbox.mod.o ;  true

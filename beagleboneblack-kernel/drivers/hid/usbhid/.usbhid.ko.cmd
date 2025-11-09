@@ -1,0 +1,1 @@
+cmd_drivers/hid/usbhid/usbhid.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/hid/usbhid/usbhid.ko drivers/hid/usbhid/usbhid.o drivers/hid/usbhid/usbhid.mod.o ;  true

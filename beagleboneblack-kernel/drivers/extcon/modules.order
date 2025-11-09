@@ -1,0 +1,2 @@
+kernel/drivers/extcon/extcon-palmas.ko
+kernel/drivers/extcon/extcon-usb-gpio.ko

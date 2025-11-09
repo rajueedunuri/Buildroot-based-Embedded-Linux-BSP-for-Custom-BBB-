@@ -1,0 +1,1 @@
+cmd_drivers/regulator/lm363x-regulator.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/regulator/lm363x-regulator.ko drivers/regulator/lm363x-regulator.o drivers/regulator/lm363x-regulator.mod.o ;  true

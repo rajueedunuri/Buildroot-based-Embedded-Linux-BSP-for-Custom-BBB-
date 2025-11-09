@@ -1,0 +1,1 @@
+cmd_drivers/phy/motorola/phy-mapphone-mdm6600.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/phy/motorola/phy-mapphone-mdm6600.ko drivers/phy/motorola/phy-mapphone-mdm6600.o drivers/phy/motorola/phy-mapphone-mdm6600.mod.o ;  true

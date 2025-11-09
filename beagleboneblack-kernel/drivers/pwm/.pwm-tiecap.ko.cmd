@@ -1,0 +1,1 @@
+cmd_drivers/pwm/pwm-tiecap.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/pwm/pwm-tiecap.ko drivers/pwm/pwm-tiecap.o drivers/pwm/pwm-tiecap.mod.o ;  true

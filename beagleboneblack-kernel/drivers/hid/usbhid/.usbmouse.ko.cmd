@@ -1,0 +1,1 @@
+cmd_drivers/hid/usbhid/usbmouse.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/hid/usbhid/usbmouse.ko drivers/hid/usbhid/usbmouse.o drivers/hid/usbhid/usbmouse.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/ti_am335x_tsc.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/input/touchscreen/ti_am335x_tsc.ko drivers/input/touchscreen/ti_am335x_tsc.o drivers/input/touchscreen/ti_am335x_tsc.mod.o ;  true

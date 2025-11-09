@@ -1,0 +1,1 @@
+cmd_sound/soc/ti/snd-soc-omap-twl4030.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o sound/soc/ti/snd-soc-omap-twl4030.ko sound/soc/ti/snd-soc-omap-twl4030.o sound/soc/ti/snd-soc-omap-twl4030.mod.o ;  true

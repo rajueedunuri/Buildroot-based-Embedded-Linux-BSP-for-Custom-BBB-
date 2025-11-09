@@ -1,0 +1,14 @@
+!<thin>
+//                                              100       `
+input.o/
+input-compat.o/
+input-mt.o/
+ff-core.o/
+keyboard/gpio_keys.o/
+touchscreen/of_touchscreen.o/
+/0              0           0     0     644     119848    `
+/9              0           0     0     644     16180     `
+/25             0           0     0     644     27440     `
+/37             0           0     0     644     21952     `
+/48             0           0     0     644     47656     `
+/70             0           0     0     644     19588     `

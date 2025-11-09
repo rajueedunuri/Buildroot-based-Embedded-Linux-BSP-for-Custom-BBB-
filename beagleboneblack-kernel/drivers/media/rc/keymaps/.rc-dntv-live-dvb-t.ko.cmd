@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-dntv-live-dvb-t.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/keymaps/rc-dntv-live-dvb-t.ko drivers/media/rc/keymaps/rc-dntv-live-dvb-t.o drivers/media/rc/keymaps/rc-dntv-live-dvb-t.mod.o ;  true

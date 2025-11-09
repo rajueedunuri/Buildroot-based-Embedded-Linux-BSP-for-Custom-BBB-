@@ -1,0 +1,1 @@
+cmd_drivers/usb/musb/musb_am335x.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/musb/musb_am335x.ko drivers/usb/musb/musb_am335x.o drivers/usb/musb/musb_am335x.mod.o ;  true

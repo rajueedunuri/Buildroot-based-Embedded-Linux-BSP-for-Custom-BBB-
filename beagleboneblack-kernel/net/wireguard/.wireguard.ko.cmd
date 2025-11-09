@@ -1,0 +1,1 @@
+cmd_net/wireguard/wireguard.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/wireguard/wireguard.ko net/wireguard/wireguard.o net/wireguard/wireguard.mod.o ;  true

@@ -1,0 +1,5 @@
+kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/udc/udc-core.ko
+kernel/drivers/usb/phy/phy-generic.ko
+kernel/drivers/usb/phy/phy-am335x-control.ko
+kernel/drivers/usb/phy/phy-am335x.ko

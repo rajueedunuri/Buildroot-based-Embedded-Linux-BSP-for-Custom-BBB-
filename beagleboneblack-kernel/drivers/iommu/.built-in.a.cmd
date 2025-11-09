@@ -1,0 +1,1 @@
+cmd_drivers/iommu/built-in.a := rm -f drivers/iommu/built-in.a; arm-linux-gnueabihf-ar rcSTPD drivers/iommu/built-in.a drivers/iommu/iommu.o drivers/iommu/iommu-traces.o drivers/iommu/iommu-sysfs.o drivers/iommu/of_iommu.o drivers/iommu/omap-iommu.o

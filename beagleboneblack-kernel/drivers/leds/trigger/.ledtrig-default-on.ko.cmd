@@ -1,0 +1,1 @@
+cmd_drivers/leds/trigger/ledtrig-default-on.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/leds/trigger/ledtrig-default-on.ko drivers/leds/trigger/ledtrig-default-on.o drivers/leds/trigger/ledtrig-default-on.mod.o ;  true

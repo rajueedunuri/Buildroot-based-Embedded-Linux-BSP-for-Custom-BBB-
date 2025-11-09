@@ -1,0 +1,1 @@
+cmd_drivers/rpmsg-kdrv/rpmsg_kdrv.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/rpmsg-kdrv/rpmsg_kdrv.ko drivers/rpmsg-kdrv/rpmsg_kdrv.o drivers/rpmsg-kdrv/rpmsg_kdrv.mod.o ;  true

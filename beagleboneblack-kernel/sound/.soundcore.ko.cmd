@@ -1,0 +1,1 @@
+cmd_sound/soundcore.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o sound/soundcore.ko sound/soundcore.o sound/soundcore.mod.o ;  true

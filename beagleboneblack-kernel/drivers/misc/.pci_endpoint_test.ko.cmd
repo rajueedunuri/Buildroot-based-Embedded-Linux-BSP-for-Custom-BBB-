@@ -1,0 +1,1 @@
+cmd_drivers/misc/pci_endpoint_test.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/misc/pci_endpoint_test.ko drivers/misc/pci_endpoint_test.o drivers/misc/pci_endpoint_test.mod.o ;  true

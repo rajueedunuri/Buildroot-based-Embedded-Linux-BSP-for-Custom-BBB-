@@ -1,0 +1,5 @@
+kernel/drivers/mmc/host/sdhci.ko
+kernel/drivers/mmc/host/omap.ko
+kernel/drivers/mmc/host/omap_hsmmc.ko
+kernel/drivers/mmc/host/sdhci-pltfm.ko
+kernel/drivers/mmc/host/sdhci-omap.ko

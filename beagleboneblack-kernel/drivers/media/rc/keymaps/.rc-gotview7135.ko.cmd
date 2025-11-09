@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-gotview7135.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/keymaps/rc-gotview7135.ko drivers/media/rc/keymaps/rc-gotview7135.o drivers/media/rc/keymaps/rc-gotview7135.mod.o ;  true

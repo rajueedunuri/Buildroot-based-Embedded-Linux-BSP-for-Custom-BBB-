@@ -1,0 +1,1 @@
+cmd_drivers/usb/dwc3/dwc3-haps.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/dwc3/dwc3-haps.ko drivers/usb/dwc3/dwc3-haps.o drivers/usb/dwc3/dwc3-haps.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/omap3isp/omap3-isp.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/platform/omap3isp/omap3-isp.ko drivers/media/platform/omap3isp/omap3-isp.o drivers/media/platform/omap3isp/omap3-isp.mod.o ;  true

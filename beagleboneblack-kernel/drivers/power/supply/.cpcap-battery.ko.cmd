@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/cpcap-battery.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/power/supply/cpcap-battery.ko drivers/power/supply/cpcap-battery.o drivers/power/supply/cpcap-battery.mod.o ;  true

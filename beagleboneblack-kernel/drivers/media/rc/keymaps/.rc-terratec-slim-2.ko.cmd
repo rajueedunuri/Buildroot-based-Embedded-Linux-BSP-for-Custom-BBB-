@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-terratec-slim-2.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/keymaps/rc-terratec-slim-2.ko drivers/media/rc/keymaps/rc-terratec-slim-2.o drivers/media/rc/keymaps/rc-terratec-slim-2.mod.o ;  true

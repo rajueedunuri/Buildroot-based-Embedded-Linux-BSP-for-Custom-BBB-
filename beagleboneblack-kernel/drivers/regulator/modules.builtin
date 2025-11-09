@@ -1,0 +1,16 @@
+kernel/drivers/regulator/fixed.ko
+kernel/drivers/regulator/cpcap-regulator.ko
+kernel/drivers/regulator/gpio-regulator.ko
+kernel/drivers/regulator/lp872x.ko
+kernel/drivers/regulator/lp873x-regulator.ko
+kernel/drivers/regulator/lp87565-regulator.ko
+kernel/drivers/regulator/palmas-regulator.ko
+kernel/drivers/regulator/pbias-regulator.ko
+kernel/drivers/regulator/ti-abb-regulator.ko
+kernel/drivers/regulator/tps65023-regulator.ko
+kernel/drivers/regulator/tps6507x-regulator.ko
+kernel/drivers/regulator/tps65217-regulator.ko
+kernel/drivers/regulator/tps65218-regulator.ko
+kernel/drivers/regulator/tps65910-regulator.ko
+kernel/drivers/regulator/twl-regulator.ko
+kernel/drivers/regulator/twl6030-regulator.ko

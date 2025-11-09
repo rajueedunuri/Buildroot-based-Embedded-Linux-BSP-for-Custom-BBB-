@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-geekbox.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/keymaps/rc-geekbox.ko drivers/media/rc/keymaps/rc-geekbox.o drivers/media/rc/keymaps/rc-geekbox.mod.o ;  true

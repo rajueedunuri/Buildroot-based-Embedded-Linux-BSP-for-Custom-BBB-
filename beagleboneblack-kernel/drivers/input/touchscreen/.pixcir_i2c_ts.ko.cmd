@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/pixcir_i2c_ts.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/input/touchscreen/pixcir_i2c_ts.ko drivers/input/touchscreen/pixcir_i2c_ts.o drivers/input/touchscreen/pixcir_i2c_ts.mod.o ;  true

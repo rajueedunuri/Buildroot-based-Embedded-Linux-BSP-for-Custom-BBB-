@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/omapdrm/omapdrm.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/gpu/drm/omapdrm/omapdrm.ko drivers/gpu/drm/omapdrm/omapdrm.o drivers/gpu/drm/omapdrm/omapdrm.mod.o ;  true

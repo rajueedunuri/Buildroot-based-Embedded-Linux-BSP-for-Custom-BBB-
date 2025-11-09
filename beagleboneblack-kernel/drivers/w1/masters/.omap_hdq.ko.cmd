@@ -1,0 +1,1 @@
+cmd_drivers/w1/masters/omap_hdq.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/w1/masters/omap_hdq.ko drivers/w1/masters/omap_hdq.o drivers/w1/masters/omap_hdq.mod.o ;  true

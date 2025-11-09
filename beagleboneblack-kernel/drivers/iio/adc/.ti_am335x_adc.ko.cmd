@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/ti_am335x_adc.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/iio/adc/ti_am335x_adc.ko drivers/iio/adc/ti_am335x_adc.o drivers/iio/adc/ti_am335x_adc.mod.o ;  true

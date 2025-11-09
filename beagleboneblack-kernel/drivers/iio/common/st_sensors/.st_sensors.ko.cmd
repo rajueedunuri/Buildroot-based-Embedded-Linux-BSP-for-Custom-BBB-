@@ -1,0 +1,1 @@
+cmd_drivers/iio/common/st_sensors/st_sensors.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/iio/common/st_sensors/st_sensors.ko drivers/iio/common/st_sensors/st_sensors.o drivers/iio/common/st_sensors/st_sensors.mod.o ;  true

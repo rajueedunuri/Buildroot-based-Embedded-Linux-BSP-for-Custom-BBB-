@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/pandora_bl.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/video/backlight/pandora_bl.ko drivers/video/backlight/pandora_bl.o drivers/video/backlight/pandora_bl.mod.o ;  true

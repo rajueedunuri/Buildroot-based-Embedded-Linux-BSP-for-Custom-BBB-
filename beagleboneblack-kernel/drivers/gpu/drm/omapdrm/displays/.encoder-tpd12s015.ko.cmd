@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/omapdrm/displays/encoder-tpd12s015.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/gpu/drm/omapdrm/displays/encoder-tpd12s015.ko drivers/gpu/drm/omapdrm/displays/encoder-tpd12s015.o drivers/gpu/drm/omapdrm/displays/encoder-tpd12s015.mod.o ;  true

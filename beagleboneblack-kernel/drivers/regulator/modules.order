@@ -1,0 +1,2 @@
+kernel/drivers/regulator/lm363x-regulator.ko
+kernel/drivers/regulator/tps62360-regulator.ko

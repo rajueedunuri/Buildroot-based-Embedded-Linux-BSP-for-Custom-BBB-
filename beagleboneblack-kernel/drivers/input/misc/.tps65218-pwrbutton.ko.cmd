@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/tps65218-pwrbutton.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/input/misc/tps65218-pwrbutton.ko drivers/input/misc/tps65218-pwrbutton.o drivers/input/misc/tps65218-pwrbutton.mod.o ;  true

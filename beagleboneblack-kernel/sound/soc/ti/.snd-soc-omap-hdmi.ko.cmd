@@ -1,0 +1,1 @@
+cmd_sound/soc/ti/snd-soc-omap-hdmi.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o sound/soc/ti/snd-soc-omap-hdmi.ko sound/soc/ti/snd-soc-omap-hdmi.o sound/soc/ti/snd-soc-omap-hdmi.mod.o ;  true
